@@ -9,7 +9,7 @@ function upDate(previewPic){
        to the alt text of the preview image 
        */
        document.getElementById('image').innerHTML=previewPic.alt;
-       document.getElementById('image').style.background="url("+previewPic.src+")";
+       document.getElementById('image').style.background="url(' "+previewPic.src+" ')";
        }
    
    function unDo(){
